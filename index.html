@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>This is the CSS Form Exercise</title>
+  <link type="text/css" rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+  <form class="my_form" action="index.html" method="post">
+    <div class="row">
+
+      <div class="field">
+        <label for="name">NAME</label>
+        <input type="text" name="name" placeholder="What is your full name?">
+      </div>
+
+      <div class="field">
+        <label for="company">COMPANY</label>
+        <input type="text" name="company" placeholder="Where do you currently work?">
+      </div>
+    </div> <!-- end of row -->
+
+    <div class="row">
+
+      <div class="field">
+        <label for="phone_number">PHONE NUMBER</label>
+        <input type="text" name="phone_number" placeholder="What is the best # to reach you?">
+      </div>
+
+      <div class="field">
+        <label for="email">EMAIL</label>
+        <input type="text" name="email" placeholder="What is your e-mail address?">
+      </div>
+
+      <div class="field">
+        <label for="availability">AVAILABILITY</label>
+        <select>
+          <option value="5-15-hrs">5-15 hrs per week</option>
+          <option value="15-25-hrs">15-25 hrs per week</option>
+          <option value="25-35-hrs">25-35 hrs per week</option>
+          <option value="35-45-hrs">35-45 hrs per week</option>
+        </select>
+      </div>
+    </div> <!-- end of row -->
+
+    <div class="row">
+
+      <div class="field">
+        <label for="skills">SKILLS</label>
+        <input type="text" name="skills" placeholder="List a few of your primary skills">
+      </div>
+
+      <div class="field">
+        <label for="yrs_experience">YRS EXPERIENCE</label>
+        <input type="text" name="yrs_experience" placeholder="How many years of experience?">
+      </div>
+
+      <div class="field">
+        <label for="favorite_color">FAVORITE COLOR</label>
+        <input type="text" name="favorite_color" placeholder="What's your favorite color, above all others?">
+      </div>
+
+      <div class="field">
+        <label for="prog_lang_choice">PROGRAMMING LANGUAGE OF CHOICE</label>
+        <input type="text" name="prog_lang_choice" placeholder="I know. Tough question.">
+      </div>
+
+    </div> <!-- end of row -->
+
+    <div class="row">
+      <input type="submit" value="Submit Form">
+    </div> <!-- end of row -->
+
+  </form>
+
+</body>
+
+</html>
